@@ -1,1 +1,189 @@
 *{ border: 1px solid #040604; }
+
+.titul{
+
+
+}
+
+
+
+
+
+
+
+
+
+.titulo-bienvenida{
+    color: oklch(76.992% 0.18547 121.661);
+    text-align: center;
+    font-family: 'cursive', sans-serif;
+}
+
+
+.descripcion{
+    color: oklch(54.41% 0.29412 297.824);
+    font-family: 'cursive', sans-serif;
+    font-size: 20px;
+}
+
+.titulo{
+    color: oklch(68.601% 0.21045 41.127);
+    text-align: center;
+    font-family: 'cursive', sans-serif;
+}
+
+
+
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.j{ 
+    width: 200px;
+    height: 200px;
+    border: 1px solid #200;
+    margin: 1px;
+}
+
+.orocrus{
+    width: 200px;
+    height: 200px;
+     border: 1px solid #200;
+    margin: 1px;
+}
+.jolas{
+    width: 200px;
+    height: 200px;
+     border: 1px solid #200;
+    margin: 1px;
+}
+.jiratiempo{
+    width: 200px;
+    height: 200px;
+     border: 1px solid #200;
+    margin: 1px;
+}
+collar-elizerin {
+    width: 200px;
+    height: 200px;
+     border: 1px solid #200;
+    margin: 1px;
+}
+collar-hufflepuff {
+    width: 200px;
+    height: 200px;
+     border: 1px solid #200;
+    margin: 1px;
+}
+collar-ravenclaw {
+    width: 200px;
+    height: 200px;
+     border: 1px solid #200;
+    margin:1px;
+}
+collar-grifindor {
+    width: 200px;
+    height: 200px;
+     border: 1px solid #200;
+    margin: 1px;
+}
+.ta{ 
+    width: 200px;
+    height: 200px;
+    border: 1px solid #200;
+    margin: 1px;
+
+ }
+ .tas{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #200;
+    margin: 1px;
+ }
+ .tcpa{ 
+width:200px ;
+height:200px ;
+border: 1px solid #200 ;
+margin: 1px;
+ }
+
+.lamejor{
+width: 200px; 
+height: 200px;
+border: 1px selid #200;
+margin: 1px;
+}
+.mochila{
+width:200px ;
+height:200px ;
+border:1px sulid #200;
+margin 1px ;
+}
+
+.caja-musica{
+width: 200px; ;
+height: 200px; ;
+border: 1px solid #200;
+margin:1px ;
+}
+
+
+.o{
+width: 200px ;
+height: 200px; 
+border: 1px solid #200;
+margin: 1px;
+}
+.s{
+   width: 200px;
+    height: 200px;
+     border: 1px solid #200;
+    margin: 1px;
+}
+.te{
+   width: 200px;
+    height: 100px;
+     border: 1px solid #200;
+    margin: 1px;
+}
+.mate{
+   width: 200px;
+    height: 200px;
+     border: 1px solid #200;
+    margin: 1px;
+}S
+.varita{
+   width: 100px;
+    height: 100px;
+     border: 1px solid #200;
+    margin: 1px;
+}
+
+
+a{
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+
+
+}
+
+
+
+
+
+
+
+
+
