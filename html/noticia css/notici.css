@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Merriweather:wght@400;700&display=swap');
+
+.profeta-body {
+  margin: 0;
+  background: #d8d0b9;
+  color: #111111;
+  font-family: "Merriweather", serif;
+}
+
+.profeta-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px 50px;
+}
+
+.profeta-header {
+  background: #f3efe6;
+  border: 3px solid #111111;
+  text-align: center;
+  padding: 18px 16px 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.edition {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.35em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.profeta-header h1 {
+  margin: 10px 0 6px;
+  font-family: "Cinzel", serif;
+  font-size: clamp(2.8rem, 7vw, 7rem);
+  line-height: 0.9;
+  letter-spacing: 0.12em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.profeta-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 2px solid #111;
+}
+
+.profeta-nav a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+}
+
+.profeta-nav a:hover {
+  text-decoration: underline;
+}
+
+.profeta-main {
+  background: #f7f3ea;
+  border: 3px solid #111;
+  border-top: none;
+  padding: 20px;
+}
+
+.profeta-hero {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 18px;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #111;
+}
+
+.profeta-hero img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border: 2px solid #111;
+}
+
+.profeta-hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tag {
+  width: fit-content;
+  display: inline-block;
+  background: #111;
+  color: #f2d273;
+  padding: 6px 12px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.profeta-hero__content h2 {
+  margin: 0;
+  font-family: "Cinzel", serif;
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1.1;
+  color: #111;
+}
+
+.profeta-hero__content p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #2d2d2d;
+}
+
+.profeta-link,
+.profeta-card__body a {
+  color: #111;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.profeta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 22px;
+  padding-top: 22px;
+}
+
+.profeta-card {
+  background: #f4f0e7;
+  border: 2px solid #111;
+  display: flex;
+  flex-direction: column;
+}
+
+.profeta-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 2px solid #111;
+}
+
+.profeta-card__body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profeta-card__body h3 {
+  margin: 0;
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.profeta-card__body p {
+  margin: 0;
+  line-height: 1.7;
+  color: #2a2a2a;
+}
+
+@media (max-width: 760px) {
+  .profeta-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .profeta-hero img {
+    height: 300px;
+  }
+
+  .profeta-header h1 {
+    letter-spacing: 0.08em;
+  }
+
+  .profeta-nav {
+    gap: 10px;
+  }
+}
